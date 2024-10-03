@@ -1,0 +1,251 @@
+body{
+    margin: 0px;
+    width: 100vw;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 254, 252);
+    position: sticky;
+   top: 0px;
+}
+.navbar-left{
+    width: 50vw;
+    padding-left: 50px;
+    color: rgb(255, 162, 0);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.options:hover{
+    text-decoration: none;
+    color: rgb(255, 162, 0);
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+   align-items: center;
+    padding-left: 150px;
+    letter-spacing: 1px;
+}
+.options{
+    padding: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    height: 90vh;
+}
+.home-left{
+    width: 50vw;
+    font-family: "Montserrat", sans-serif;
+    padding: 80px;
+    padding-left: 100px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+h3{
+    font-weight: bold;
+    color: rgb(247, 158, 5);
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size-adjust: unset;
+    letter-spacing: 1px;
+}
+.home-right{
+    display: flex;
+    width:50vw;   
+    padding-top: 12vh;
+}
+.photo{
+    display: flex;
+    width: 32vw;
+    height: 50vh;
+}
+
+.service{
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 70px;
+}
+.service-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    padding-left: 10px;
+    color: rgb(247, 158, 5);
+}
+l{
+    color: rgb(247, 158, 5);
+    font-size: 22px;
+}
+.icon{
+    width: 2.9vw;
+    padding: 10px;
+    image-rendering: crisp-edges;
+}
+.service-bio{
+    text-align: center;
+    letter-spacing:0.5px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.service-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.h3{
+    color: black;
+}
+.services{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 30px;
+    width: 25vw;
+}
+.services:hover{
+    background-color: rgb(246, 162, 16);
+    color: white;
+    box-shadow: 0px 0px 3px;
+}
+.p{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.education-name{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.btech{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 37vw;
+    height: 25vh;
+    margin: 60px;
+    line-height: 25px;
+}
+.btech-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btech-icon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.skills-sub{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 13vw;
+    padding: 10px;
+    text-align: center;
+}
+.skills-sub:hover{
+    background-color: rgb(246, 162, 16);
+    color: white;
+    box-shadow: 0px 0px 3px;
+}
+.projects-head{
+    padding: 40px 0;
+}
+.email{
+    height: 40vw;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.mobile{
+    padding: 20px;
+}
+.mobile-input{
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.query{
+    padding: 20px;
+}
+.query-input{
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.button{
+    height: 50px;
+    padding: 20px;
+}
+.button-input{
+    height: 35px;
+    width: 80px;
+   background-color:  rgb(246, 162, 16);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.button-input:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px;
+   
+}
+.button-input:hover:active{
+    background-color:  white;
+}
+.gmail{
+    padding: 30px;
+}
+.gmail1{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.contact-icon{
+    width: 40px;
+    padding: 30px;
+}
